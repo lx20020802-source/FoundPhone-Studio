@@ -1,16 +1,17 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "brother-wechat-story",
+  "title": "弟弟的来电",
+  "description": "2026年10月16日的微信聊天记录与一通未接来电。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
+    "owner": "我",
+    "date": "2026-10-16",
+    "time": "20:16",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "data:image/webp;base64,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",
+    "passcode": "1314"
   },
   "installedApps": [
     "appstore",
@@ -93,6 +94,13 @@
       "name": "测试联系人",
       "phone": "",
       "bio": "这是一条测试内容。"
+    },
+    {
+      "id": "brother",
+      "name": "弟弟",
+      "phone": "",
+      "avatar": "data:image/webp;base64,UklGRngCAABXRUJQVlA4IGwCAADQDwCdASpQAEUAPwVqrFArpiQisLifUXAgiWUAx+Rno133QTUqZJq2Z3vehrGnu6m8ecQSBr1UlQ3Gkf2/iBn6VWeXCbxye67noPfx5yBfS7OcojaOfOH/uAJOTuEjQlSZ/Pnw6ofnHFwiIMqqaBb/B3fqG0gS08JYs5fv9pHgE+S49ge1AaAA/vbvVon1dsmPEDjKVBfMANhuTwodavyMP9VuZMh0f/UkybyUC2JQPD1Co590R0MGw2EUUrMo88RbB+PjT35QVnUi3PHRY8S+2qBo/XuajYV7/0V0hOd6Z5VqceBonFiTrg/X0Pte5a3crOeq5mcnUpdVexOfMRmuULNInYtIcJofaoQ+nZII82H0T61NdrcFqZGBtBh/jgbn3toSrI0oTWE0RtLyC+ZnaajRTSuo06QwDTCbt61h6e6FftX0qwyoHaBHCAm2aStnklYo/wpZQOTwx1LTVeA9x4SmnS8KVIxJ4CWBkrtZtrj3bKW7cWQ3p+Pa9esC8xlkZCnDT8L6+Nf+tiAbjgwiHOXTrFyo9LwsGN37dECEbljFjnF9Hc/is6uf7ETwNrezkVT3newvQKU1I7wX7cc9vACkKxHQtcnO8ug9ySPYMguHOnBxWkq5dVxeneFQI64mKo0pGpfrnm3mmZU1F9wdHNwUWhZ/+B5T/TK2t6or/Q7MXr9cGTedoanjr5QPyukZdtBJipKjsEubvV+ciVJhGfyaroCTqP60CzsHMzdZxXpjL1Mj1AaGV+Ok+AUub4r5sbcDfrUedL7JWiAHeVJmxeWs/nP2L2FLlS8WvjA0AulgePEilP0kGAAAAA==",
+      "bio": ""
     }
   ],
   "chats": [
@@ -107,22 +115,6 @@
       "messages": [
         {
           "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
           "body": "这是一条测试消息。",
           "senderId": "test-contact"
         }
@@ -242,6 +234,45 @@
           "id": "test-reply-kakao",
           "body": "这是一条测试回复。",
           "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "wechat-brother-chat",
+      "app": "wechat",
+      "title": "弟弟",
+      "participants": [
+        "owner",
+        "brother"
+      ],
+      "messages": [
+        {
+          "id": "msg-brother-1",
+          "body": "家里那个又和我吵架了，哎烦死了",
+          "senderId": "brother",
+          "time": "2026-10-16 20:12"
+        },
+        {
+          "id": "msg-owner-sticker",
+          "body": "",
+          "senderId": "owner",
+          "avatar": "data:image/webp;base64,UklGRoAFAABXRUJQVlA4IHQFAAAwJACdASqAAGoAPrVMnUonJKKhs3RMWOAWiWNrT1kIt+BVPFm7TbL/Y2nwuqUiuhIZYL5TRHc+4aPG94Dn0JeIVhBw0TIa67Sfqh/0Wl7B6brbZ5PXl+puzXv/bA0a8z/2pNms9V0BsvYbRzHK6c9krCfK5IZXCs9ZUtnxvRMLKQULM7L2GqhfM4LzrsCk6Xn0ltYnTUmqZ8y0avcEYxMbl9lD0fiOceca7+IyWMpzEi0JOsUEgj19sgkX2nm+oHAmD3G1p6AnPOk3rJBMKnVO3lmxBk4bH/TVvg2XN8oWo1niRzbQFswzsrCL5JXgzbMVZM8RmK0M8waFDYiiMjHaOZtZnIf9CJKPwH3HBPxxHpvHNh1SQLjF9kq+jZBoJopzQznSOlq79LOAAP7ZkmuzqVaaZuTsKQoJPyuuR1uSI9dTx1dAfr3Kxi3Yu+wtmfvUi2oRSJ+8QFFAE0Wniv5eZZt5yORt+nA3658DCR5mzKUO67o0JbQ/CrEFyiSK9+E1bl71RQFTupJBDzbZ69TaZkI578QlyJTFichha70Reo3kDWyh3ESIt+m26R4S1RpAumg+iidS2jGFdpTVn3jDfqPujrndUwUNRUmTxR6Dw4d6C/SwlkEGn87TeKyvO+gu/l+1HrQEYZZx0dZlI1IYjLS2VGBTn9jzcDOLOoJ/AOimfYKTJ0c+VAAh6yyAGFE5khjXMsrcjJbDffo2pzZUnNriq6fVA36V07NsV2D4wPV6VtxxaJNsFKx9xbmGUtyNDJ4eBCQrmHyHUUwXKQ1HDu7FmfjOcTECKcHdW7aKdY5Yacetcb4RA2G84z0ZSZ8fkSGwPDUYuL2lyK60PXBj2YbL6W/NogGCkQg7oUTd6r7fd4+nobw+GSwGf9KTdXAL8DbGmadEsu6lvj9CFI37b0OBLBbq/7qZ/m4h391MXZpSPWVgcUr7CVyPTH51Mb1AI4rb2GXMVrzUtJR9/MdKyLZIeOHjT8Gep23KdCxeY5uEW/4TQuUL9mIsiDUv1RrayXYcaxmWm1xcbqVG+1GFtkvwxC4TuP+N32kGXFnvtGEKNhuldn4C3hFSACZj7jnRnf/pT6o9RSYkjfYbiLYGB8V23to3h8GAC/V/ZkZT/GoV8eysl37GbozWqrsrQrUNIXIrJTcApC2R9S2aBZ5TKI/45PDQtBM11HxkZkedL92W3Vq5v4Xc61GmTm2jMN7q7Hi+8W2lNUKGtq77BUoJ7MNjYWCPcNuX/qmWWoThnmB2Biamhw9cJ9UoSo8qTc0iKf1wrrJt+AGmTvcQi95IxgdenbsBnpI5uQpf3EVGlIISTxFhtH+bnqUvn5g6MXHyPpa2zjwHM8n700ScoBvDZkFJrdD+f8yEEdJWkC69naweVJ5bjvJ0kw80IlV4Chs7CVbuZ7gAzmDg84PjaiBXiC+8ccZinhWBYLPd5J9AIIntc5YzW+KqEznggoyPDl36edWTu2TSJGpKgr+QLRT5I7uA99jFusSqKKLMYWoCGNxyorIzx9O9xRpm+M7RcUG5KooB2blSjoQgo4kb5wyMq1cNckmiys/C5MzEhllr9NuWgMhTh1wWtTV6YIqzpIaFgo9HAKKNCus17Skz6VJ1SBaLefcdnnhO//K+39Uohm4WFRc85zYCanPOBrM6hI6pnMAzk0Z/CA0eLFxxmE5vs0MhYJHO/0cnBARjcB0PM6W7mdf7NuJGNbRUGpM5cwiBHrqyZZ/HzQAcbn2Xw+HYf4Ral2mcIxuxgZ3fd6De4Hh9Uw85Jeoz/fmXTP5ljgNp1lQ7dybM0e9w8RntY+iX+FNmUHKg6ctS6gIay8MpHc0b7rEqSxK7m5MR1Bru1VQQwAAA",
+          "kind": "image",
+          "media": "data:image/webp;base64,UklGRhgEAABXRUJQVlA4IAwEAACQHQCdASp4AHQAPxl+s1IsqL+rrJXMg/AjCWNtoluipP7kUdr/MCv9itMH0l77dIe8S+785O7Xjc4Sg/IQ8LW+MFgnWdTyeNbzDZLQ8I0zoQl3shtP5Zso1andT0OiQwnhjE186VdrbRvo771rxdYGMQDOJQZNoJC7bZKG7WfUwBNnCMm43zr9h63BUMe/B3zV0fXZRYlaR0lQ8H56Cz41a58CIrjtPH/74MHE//a1YNoOxjJA/RufPnXGz48DyUgMMesUVcZuCNpnNrAOHdYhK9cL2xZzj+UOvhXoGXB8A5XiyGAUatj67TAJTAozu7RlH1sLYAD+8+apIaJo745OTKpGAiD4JczzkfcN8sG7c9mt3F+z5vrUXfKWAdaj554N0bTM3xU0kgF+XDXf2HJlbG6GzIOwbA/X0kFNuZRRzD5W4oQ0A7BW7ZCCuIv6aAPI6ZggK7XeBL4uCDsJse2srcDplvaxppcWQNmDhQ3dAl3/JLmfhexEArSA4bR4EeH1Atckk4+OFMssO0Rn2M6AfrTdQ75s8Val0dYzKEYxBiCvV4FtmAu6Nguw8kqLKrVbcHq40jWPQhnk6h0fqMvCl4u/psN2DxOyifD43tY76r6F7tYd0Jhr/yfgPjrPHrne65CEtW7XuhghbURhJfaQ2iUcM/HRs7ObSiqgjaBLLcASffKiitRFA2CiSpQrMlTNZqZtnD5/xx35aeUgMnUEyVgzZ04mHq82iIFdnDv9IOAbgnTb1x4D6hDIIl5SuifWJD+Fgx54+ezjiHW27RH6kU7FfF1crvJzJ1xjpaWiEAl43wqgUxUKBXgZJvFgiq/S9KyEicprQEfuG0YPF78JquhQMRbnFIbLGmWXrgbpqQiA/K9tBqcU6dYnLL2XEXlBDTMUQo8DxJ0sHTvJsSNy3BiyBlc+h5N5k1okcD+isol/6FJiBLnm8Q1ym40FCbnd4JqV8ZTqKRqeoVZsb9AtI7/w+y/MbN4KJYjaWRm56xpYfRXO4HuW/huBM0bxtI+7SVIWgiTIBXSzxLHs3co2nzBvctljiHE0bNCM7gKU5834Q4fxZfWapnsD+DL6We/lsURYKeya3jqGVfXrLr6RjPoU/L1hJKxWEU//IulKySAKcPak198R3zcH4XTE+ai1w525LqmEICs4hNc4I2jSczSGkNhmhzB1ILr3qNauIqNmxPD/zmiWEbvEnRFpmrFwofBKtieFtLxuya9RVLlMH/VP5PW5+UtJQb+CDfclnCsOg3mQsLR65Mndnz8N5Q5MVGNstQPehANADJc7PSFApr7nWOuu4xdr1U/SI9a5+Xx2SLAnFIptkD1gxO8CCeVEwSkVNaLO1vK8zxTjQZUO2/DXYd9Jl0YG2QAA",
+          "time": "2026-10-16 20:14"
+        },
+        {
+          "id": "msg-brother-2",
+          "body": "你就知道睡觉，帮我处理一下啊",
+          "senderId": "brother",
+          "time": "2026-10-16 20:15"
+        },
+        {
+          "id": "msg-owner-final",
+          "body": "我能怎么办，我现在在外省，还能管到你家里去?再说了那是你自己的事儿！",
+          "senderId": "owner",
+          "avatar": "data:image/webp;base64,UklGRoAFAABXRUJQVlA4IHQFAAAwJACdASqAAGoAPrVMnUonJKKhs3RMWOAWiWNrT1kIt+BVPFm7TbL/Y2nwuqUiuhIZYL5TRHc+4aPG94Dn0JeIVhBw0TIa67Sfqh/0Wl7B6brbZ5PXl+puzXv/bA0a8z/2pNms9V0BsvYbRzHK6c9krCfK5IZXCs9ZUtnxvRMLKQULM7L2GqhfM4LzrsCk6Xn0ltYnTUmqZ8y0avcEYxMbl9lD0fiOceca7+IyWMpzEi0JOsUEgj19sgkX2nm+oHAmD3G1p6AnPOk3rJBMKnVO3lmxBk4bH/TVvg2XN8oWo1niRzbQFswzsrCL5JXgzbMVZM8RmK0M8waFDYiiMjHaOZtZnIf9CJKPwH3HBPxxHpvHNh1SQLjF9kq+jZBoJopzQznSOlq79LOAAP7ZkmuzqVaaZuTsKQoJPyuuR1uSI9dTx1dAfr3Kxi3Yu+wtmfvUi2oRSJ+8QFFAE0Wniv5eZZt5yORt+nA3658DCR5mzKUO67o0JbQ/CrEFyiSK9+E1bl71RQFTupJBDzbZ69TaZkI578QlyJTFichha70Reo3kDWyh3ESIt+m26R4S1RpAumg+iidS2jGFdpTVn3jDfqPujrndUwUNRUmTxR6Dw4d6C/SwlkEGn87TeKyvO+gu/l+1HrQEYZZx0dZlI1IYjLS2VGBTn9jzcDOLOoJ/AOimfYKTJ0c+VAAh6yyAGFE5khjXMsrcjJbDffo2pzZUnNriq6fVA36V07NsV2D4wPV6VtxxaJNsFKx9xbmGUtyNDJ4eBCQrmHyHUUwXKQ1HDu7FmfjOcTECKcHdW7aKdY5Yacetcb4RA2G84z0ZSZ8fkSGwPDUYuL2lyK60PXBj2YbL6W/NogGCkQg7oUTd6r7fd4+nobw+GSwGf9KTdXAL8DbGmadEsu6lvj9CFI37b0OBLBbq/7qZ/m4h391MXZpSPWVgcUr7CVyPTH51Mb1AI4rb2GXMVrzUtJR9/MdKyLZIeOHjT8Gep23KdCxeY5uEW/4TQuUL9mIsiDUv1RrayXYcaxmWm1xcbqVG+1GFtkvwxC4TuP+N32kGXFnvtGEKNhuldn4C3hFSACZj7jnRnf/pT6o9RSYkjfYbiLYGB8V23to3h8GAC/V/ZkZT/GoV8eysl37GbozWqrsrQrUNIXIrJTcApC2R9S2aBZ5TKI/45PDQtBM11HxkZkedL92W3Vq5v4Xc61GmTm2jMN7q7Hi+8W2lNUKGtq77BUoJ7MNjYWCPcNuX/qmWWoThnmB2Biamhw9cJ9UoSo8qTc0iKf1wrrJt+AGmTvcQi95IxgdenbsBnpI5uQpf3EVGlIISTxFhtH+bnqUvn5g6MXHyPpa2zjwHM8n700ScoBvDZkFJrdD+f8yEEdJWkC69naweVJ5bjvJ0kw80IlV4Chs7CVbuZ7gAzmDg84PjaiBXiC+8ccZinhWBYLPd5J9AIIntc5YzW+KqEznggoyPDl36edWTu2TSJGpKgr+QLRT5I7uA99jFusSqKKLMYWoCGNxyorIzx9O9xRpm+M7RcUG5KooB2blSjoQgo4kb5wyMq1cNckmiys/C5MzEhllr9NuWgMhTh1wWtTV6YIqzpIaFgo9HAKKNCus17Skz6VJ1SBaLefcdnnhO//K+39Uohm4WFRc85zYCanPOBrM6hI6pnMAzk0Z/CA0eLFxxmE5vs0MhYJHO/0cnBARjcB0PM6W7mdf7NuJGNbRUGpM5cwiBHrqyZZ/HzQAcbn2Xw+HYf4Ral2mcIxuxgZ3fd6De4Hh9Uw85Jeoz/fmXTP5ljgNp1lQ7dybM0e9w8RntY+iX+FNmUHKg6ctS6gIay8MpHc0b7rEqSxK7m5MR1Bru1VQQwAAA",
+          "time": "2026-10-16 20:16"
         }
       ]
     }
@@ -694,6 +725,100 @@
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "read-final-message",
+      "label": "读到最后一条消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-owner-final",
+      "next": [
+        "wait-before-call"
+      ]
+    },
+    {
+      "id": "wait-before-call",
+      "label": "等待两秒",
+      "type": "delay",
+      "delayMs": 2000,
+      "next": [
+        "show-brother-call"
+      ]
+    },
+    {
+      "id": "show-brother-call",
+      "label": "弟弟发起微信语音",
+      "type": "action",
+      "actions": [
+        {
+          "type": "call",
+          "key": "brother",
+          "value": "弟弟"
+        }
+      ],
+      "next": [
+        "ring-five-seconds"
+      ]
+    },
+    {
+      "id": "ring-five-seconds",
+      "label": "响铃五秒",
+      "type": "delay",
+      "delayMs": 5000,
+      "next": [
+        "auto-decline-call"
+      ]
+    },
+    {
+      "id": "auto-decline-call",
+      "label": "自动拒绝来电",
+      "type": "action",
+      "actions": [
+        {
+          "type": "call",
+          "key": "decline",
+          "value": "弟弟"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "test-only-ending",
+      "label": "验证完成",
+      "type": "ending",
+      "event": "manual-test-only",
+      "target": "",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "test",
+          "value": "验证完成"
+        }
+      ],
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "弟弟微信来电自动拒绝",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-owner-final"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "advanceMs": 5000
+        },
+        {
+          "event": "manual-test-only",
+          "target": ""
+        }
+      ],
+      "ending": "验证完成",
+      "expectUnlocked": []
+    }
+  ]
 }

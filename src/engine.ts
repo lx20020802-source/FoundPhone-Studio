@@ -47,12 +47,17 @@ function apply(a: Action, s: Runtime, w: Work) {
       s.notifications.push(String(a.value));
       break;
     case "call":
-      s.notifications.push(`${String(a.value)} 来电`);
-      s.incomingCall = {
-        caller: String(a.value),
-        target: a.key,
-        status: "ringing",
-      };
+      if (a.key === "decline") {
+        s.incomingCall = null;
+        s.notifications.push(`${String(a.value)} 未接来电`);
+      } else {
+        s.notifications.push(`${String(a.value)} 来电`);
+        s.incomingCall = {
+          caller: String(a.value),
+          target: a.key,
+          status: "ringing",
+        };
+      }
       break;
     case "clue":
       if (!s.clues.includes(a.key)) s.clues.push(a.key);
