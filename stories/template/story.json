@@ -1,16 +1,17 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "brother-wechat-story",
+  "title": "弟弟的来电",
+  "description": "2026年10月16日的微信聊天记录与一通未接来电。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
+    "owner": "我",
+    "date": "2026-10-16",
+    "time": "20:16",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "data:image/webp;base64,UklGRhgIAABXRUJQVlA4IAwIAACwSgCdASoMAc4APrlWo0wnKSetKxMqwaAXCWduu8HN+MEBpLuvnbogB7W/Jr//QbAekA3o+iaG7SmjAvzqbBMLUJRMkNkgquYmZItaXZp8Dx2Ua5OCxSyFxgTSGEIgTjcVWiIMkfEb3v8qyMXLmSUBxTxugCuhQDRdTqIJqT0uWUv/F/2HUCIluAa11ua6nVak4U+6PnTtPLrkMlbkC2dbMpNMEH88J7hPTnlYcsvwRTxWiI5lSRpgsY+qAjRTytL/SL7fF5aWnGf2SLS9LS+RP4EtsZA9VL3YRvVwQiXPQtQb9fbO66pwx/qoeU34cGh7wvYe2pG7LI8OS/Pb19TJAJVbBLXk8iGezWsIu41IMvCpR6m5AfeaA5ts8pPsHcjS28SK1ua70uSQ25DhnTNPdGiD9a9yn3/cumLzQfNxHmhe0VUAJV3ZnVUZVa8u0kGfF5FtG1bseI3/V+3DSfDtjvt7COco7uulVujjKDx/MOBs5pO1Btgcndnc71XZqKj3qLupJ27vknxoHlag/Uc63sPDbwGrIFxyz1A4uG3QdwKERsb4SsuFixJFI+gbhcrYohiiL3j7r0arzPq9AG0SHjM+e5Tj8Te0cvu4hHyq0fc5gPVdWVLiUp8p2LE64JpOxqaJhsNj6qM5SK80vrKhVS4mYyYCFk+Sph69dRjPO7/tTDeYj/rzlB5q8Xxr0k7qDLVeoxWOJunR5YrAVf84AN6qDPWKmN8HF7rg7Z+9nwEikZJ1BVDj30ZXYiCjMTJRUUHH94n1tk1ZhPCvheMVBM3BCncjbAAm6OqI+AAA/vSIKYN+JVBL9cGWkPB2zioFLAEYIUQ1rT3RQH2Z5tzbqmPlmCG1kZ5nAa5W49KNpxp11kGYloixbAQPgHri8GS98Fa4vF9W4BwMRoIWfLnJuUIGV2zi1cmJYAInJMaoJWnTavCLe5JtGX7bHqNWL06eIkKDFgdRazZxlPOb3E+Nf6vCPvoSUvYxmx7GRjYe7bcLfxLCTiAyM71DrTjaRsaUOhteBXD3SDce10Shg8j81cDwQ/f/f53LSbXlUrkMgy+AgHclok8G4UE6UANjk5JlHU97A8SgTgTBHLWhvu/dvNZ1RT3valEwEFwdllZh+PjLgNBsKhD9FO9wR39B7pSh16+1lJ9N85TEDbUrvbz2wo9UuQY5DtCR/XD95ziVYLJ8PHg+BetRn+S4d9bCs4ZeFTxohCq6v9VOaQtjZeI8yakPrVUtPsKfIN16lUHVSDDAn1wHRIFLc3GQc4b3n8Ryy9+OZ8Bvd+Unh7pnh0GTj6IvUoRXZgh6jCUOEJem6F06AjIaEeAO72w3nFGAmqmDX/v7aSYX+WCgNhnl70BbnYK+B565IthnUqiAO01Gdz2dgBxQQfqNyXCl9BwIfECidRlCJfe041wpdaVAdZmDlNCo6IrLVuX8peFsnylMjT3/nkUbdg4JXpagZ2pCsbLie4A6mFPGyOtBDBADaVuYbzkniqpFKHsgD5WXYLtl/0r218GVcsQuCtvIy5CU5jNqHseCBTDeGsqxjhVDxudapS2zqPxvkf8sjY2D8sYm4lbF81UWk8SjAZJV9bXHTunQ0vCZQGfJD9MBfzGrjvyy3SvK84N+mGFQ/Fx3g+eoOYHB/nEo0B/ix5jLRqb//UhcN4GRKjl3NuEGrXwwzj//tviUNA4Kl2zUgvzlXQ3Nubr6anDZe+NSpqlj1q6APkkXKuSkh4oHT0BfZUKm/CYHfD3rOCeNgGr4pzQBVd3aNgKcdCGVH8d2cwZ7vLWKh/N3XlBpineLS+0u7ym0izKbw8dgtOnXzuY6KnYHwCwU195iL5iNaw2IzeYGPO6+MQIJ7GBJvJDYAeuJssFppxS+kAxcPIfZ3uvsAjpH48knzqBTA3hoP/FfR3hkubWDyr3PM52277S/lzkrAFsNsvxJSRZTlRWfAXngdJULLWds9VPhjw32vaBjATt6rqn8ivcvVBp/ar/4pROOV5eK6aOYr4VPSoxLlTEq1K2VqbTWhBvDUzgD2jbHjiykThk0L4UBu2ltTKpMonFwI6HDiqyvmXzcdpUZaDKlIuT2Y9K5LDfPYQWyc6toiUcqnLeq10N3pOHzvzFM0wuVewwqF45FTQp01LXVgSzAjIU6Im0E8ZtsEcjB2dkLDWcASBh7cPuL25zD8UDWRGK2F0GUnfHBxuAJGCaBFaDkrr7UcG6jev5fRJBekTjR8YkP0elo4VgdhF/y11EzYmoS9Jt9e6ScPIXSnVnLyr6KiJ7jBPW0viFQNS5VBmv/iPLK9CfV7XUXR3ehjj2pY1qa6EyTfj4UAdAsoKkPJXiqdPGsBoL0YtZXuOucVu2VC4msFrZNDX/hQ8yqimbxUHdv5ZzsAyoH1iULuBx4Q6/QrwMm52pkOcJMlpuYasJy1k5LkwcTb9h2yrxVTDt5BYX85VZFaxLscVoipsmMUXH7jTI9ZkZNH6LekvEIZLK/X59OeYHtefoTZU3MLKZJ/mO4FkGcULcnkQKLdfOR2htfqRULjK3rMsPG4ivz6426BuTyCD/Q0xAi2+/caTTtTzz48y3YPQDVS0Xt04UQwtOoiNAPOH0zA6wywwnL14Yt9+k0Xl1dMMzs+Mpndk1ELbr5W4N/+wIBbKIFEMUSWLOHY5qdvGKUsK/w0fe2V11RuCT1tMTAYNSHbxAPEOJykHp4HfbjVAkOexpeQTuHuQCIywlF/dOXZ9niOih+UkUuTAAAAA==",
+    "passcode": "1314"
   },
   "installedApps": [
     "appstore",
@@ -93,6 +94,13 @@
       "name": "测试联系人",
       "phone": "",
       "bio": "这是一条测试内容。"
+    },
+    {
+      "id": "brother",
+      "name": "弟弟",
+      "phone": "",
+      "avatar": "data:image/webp;base64,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",
+      "bio": ""
     }
   ],
   "chats": [
@@ -107,22 +115,6 @@
       "messages": [
         {
           "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
           "body": "这是一条测试消息。",
           "senderId": "test-contact"
         }
@@ -242,6 +234,45 @@
           "id": "test-reply-kakao",
           "body": "这是一条测试回复。",
           "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "wechat-brother-chat",
+      "app": "wechat",
+      "title": "弟弟",
+      "participants": [
+        "owner",
+        "brother"
+      ],
+      "messages": [
+        {
+          "id": "msg-brother-1",
+          "body": "家里那个又和我吵架了，哎烦死了",
+          "senderId": "brother",
+          "time": "2026-10-16 20:12"
+        },
+        {
+          "id": "msg-owner-sticker",
+          "body": "",
+          "senderId": "owner",
+          "avatar": "data:image/webp;base64,UklGRoAFAABXRUJQVlA4IHQFAAAwJACdASqAAGoAPrVMnUonJKKhs3RMWOAWiWNrT1kIt+BVPFm7TbL/Y2nwuqUiuhIZYL5TRHc+4aPG94Dn0JeIVhBw0TIa67Sfqh/0Wl7B6brbZ5PXl+puzXv/bA0a8z/2pNms9V0BsvYbRzHK6c9krCfK5IZXCs9ZUtnxvRMLKQULM7L2GqhfM4LzrsCk6Xn0ltYnTUmqZ8y0avcEYxMbl9lD0fiOceca7+IyWMpzEi0JOsUEgj19sgkX2nm+oHAmD3G1p6AnPOk3rJBMKnVO3lmxBk4bH/TVvg2XN8oWo1niRzbQFswzsrCL5JXgzbMVZM8RmK0M8waFDYiiMjHaOZtZnIf9CJKPwH3HBPxxHpvHNh1SQLjF9kq+jZBoJopzQznSOlq79LOAAP7ZkmuzqVaaZuTsKQoJPyuuR1uSI9dTx1dAfr3Kxi3Yu+wtmfvUi2oRSJ+8QFFAE0Wniv5eZZt5yORt+nA3658DCR5mzKUO67o0JbQ/CrEFyiSK9+E1bl71RQFTupJBDzbZ69TaZkI578QlyJTFichha70Reo3kDWyh3ESIt+m26R4S1RpAumg+iidS2jGFdpTVn3jDfqPujrndUwUNRUmTxR6Dw4d6C/SwlkEGn87TeKyvO+gu/l+1HrQEYZZx0dZlI1IYjLS2VGBTn9jzcDOLOoJ/AOimfYKTJ0c+VAAh6yyAGFE5khjXMsrcjJbDffo2pzZUnNriq6fVA36V07NsV2D4wPV6VtxxaJNsFKx9xbmGUtyNDJ4eBCQrmHyHUUwXKQ1HDu7FmfjOcTECKcHdW7aKdY5Yacetcb4RA2G84z0ZSZ8fkSGwPDUYuL2lyK60PXBj2YbL6W/NogGCkQg7oUTd6r7fd4+nobw+GSwGf9KTdXAL8DbGmadEsu6lvj9CFI37b0OBLBbq/7qZ/m4h391MXZpSPWVgcUr7CVyPTH51Mb1AI4rb2GXMVrzUtJR9/MdKyLZIeOHjT8Gep23KdCxeY5uEW/4TQuUL9mIsiDUv1RrayXYcaxmWm1xcbqVG+1GFtkvwxC4TuP+N32kGXFnvtGEKNhuldn4C3hFSACZj7jnRnf/pT6o9RSYkjfYbiLYGB8V23to3h8GAC/V/ZkZT/GoV8eysl37GbozWqrsrQrUNIXIrJTcApC2R9S2aBZ5TKI/45PDQtBM11HxkZkedL92W3Vq5v4Xc61GmTm2jMN7q7Hi+8W2lNUKGtq77BUoJ7MNjYWCPcNuX/qmWWoThnmB2Biamhw9cJ9UoSo8qTc0iKf1wrrJt+AGmTvcQi95IxgdenbsBnpI5uQpf3EVGlIISTxFhtH+bnqUvn5g6MXHyPpa2zjwHM8n700ScoBvDZkFJrdD+f8yEEdJWkC69naweVJ5bjvJ0kw80IlV4Chs7CVbuZ7gAzmDg84PjaiBXiC+8ccZinhWBYLPd5J9AIIntc5YzW+KqEznggoyPDl36edWTu2TSJGpKgr+QLRT5I7uA99jFusSqKKLMYWoCGNxyorIzx9O9xRpm+M7RcUG5KooB2blSjoQgo4kb5wyMq1cNckmiys/C5MzEhllr9NuWgMhTh1wWtTV6YIqzpIaFgo9HAKKNCus17Skz6VJ1SBaLefcdnnhO//K+39Uohm4WFRc85zYCanPOBrM6hI6pnMAzk0Z/CA0eLFxxmE5vs0MhYJHO/0cnBARjcB0PM6W7mdf7NuJGNbRUGpM5cwiBHrqyZZ/HzQAcbn2Xw+HYf4Ral2mcIxuxgZ3fd6De4Hh9Uw85Jeoz/fmXTP5ljgNp1lQ7dybM0e9w8RntY+iX+FNmUHKg6ctS6gIay8MpHc0b7rEqSxK7m5MR1Bru1VQQwAAA",
+          "kind": "image",
+          "media": "data:image/webp;base64,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",
+          "time": "2026-10-16 20:14"
+        },
+        {
+          "id": "msg-brother-2",
+          "body": "你就知道睡觉，帮我处理一下啊",
+          "senderId": "brother",
+          "time": "2026-10-16 20:15"
+        },
+        {
+          "id": "msg-owner-final",
+          "body": "我能怎么办，我现在在外省，还能管到你家里去?再说了那是你自己的事儿！",
+          "senderId": "owner",
+          "avatar": "data:image/webp;base64,UklGRoAFAABXRUJQVlA4IHQFAAAwJACdASqAAGoAPrVMnUonJKKhs3RMWOAWiWNrT1kIt+BVPFm7TbL/Y2nwuqUiuhIZYL5TRHc+4aPG94Dn0JeIVhBw0TIa67Sfqh/0Wl7B6brbZ5PXl+puzXv/bA0a8z/2pNms9V0BsvYbRzHK6c9krCfK5IZXCs9ZUtnxvRMLKQULM7L2GqhfM4LzrsCk6Xn0ltYnTUmqZ8y0avcEYxMbl9lD0fiOceca7+IyWMpzEi0JOsUEgj19sgkX2nm+oHAmD3G1p6AnPOk3rJBMKnVO3lmxBk4bH/TVvg2XN8oWo1niRzbQFswzsrCL5JXgzbMVZM8RmK0M8waFDYiiMjHaOZtZnIf9CJKPwH3HBPxxHpvHNh1SQLjF9kq+jZBoJopzQznSOlq79LOAAP7ZkmuzqVaaZuTsKQoJPyuuR1uSI9dTx1dAfr3Kxi3Yu+wtmfvUi2oRSJ+8QFFAE0Wniv5eZZt5yORt+nA3658DCR5mzKUO67o0JbQ/CrEFyiSK9+E1bl71RQFTupJBDzbZ69TaZkI578QlyJTFichha70Reo3kDWyh3ESIt+m26R4S1RpAumg+iidS2jGFdpTVn3jDfqPujrndUwUNRUmTxR6Dw4d6C/SwlkEGn87TeKyvO+gu/l+1HrQEYZZx0dZlI1IYjLS2VGBTn9jzcDOLOoJ/AOimfYKTJ0c+VAAh6yyAGFE5khjXMsrcjJbDffo2pzZUnNriq6fVA36V07NsV2D4wPV6VtxxaJNsFKx9xbmGUtyNDJ4eBCQrmHyHUUwXKQ1HDu7FmfjOcTECKcHdW7aKdY5Yacetcb4RA2G84z0ZSZ8fkSGwPDUYuL2lyK60PXBj2YbL6W/NogGCkQg7oUTd6r7fd4+nobw+GSwGf9KTdXAL8DbGmadEsu6lvj9CFI37b0OBLBbq/7qZ/m4h391MXZpSPWVgcUr7CVyPTH51Mb1AI4rb2GXMVrzUtJR9/MdKyLZIeOHjT8Gep23KdCxeY5uEW/4TQuUL9mIsiDUv1RrayXYcaxmWm1xcbqVG+1GFtkvwxC4TuP+N32kGXFnvtGEKNhuldn4C3hFSACZj7jnRnf/pT6o9RSYkjfYbiLYGB8V23to3h8GAC/V/ZkZT/GoV8eysl37GbozWqrsrQrUNIXIrJTcApC2R9S2aBZ5TKI/45PDQtBM11HxkZkedL92W3Vq5v4Xc61GmTm2jMN7q7Hi+8W2lNUKGtq77BUoJ7MNjYWCPcNuX/qmWWoThnmB2Biamhw9cJ9UoSo8qTc0iKf1wrrJt+AGmTvcQi95IxgdenbsBnpI5uQpf3EVGlIISTxFhtH+bnqUvn5g6MXHyPpa2zjwHM8n700ScoBvDZkFJrdD+f8yEEdJWkC69naweVJ5bjvJ0kw80IlV4Chs7CVbuZ7gAzmDg84PjaiBXiC+8ccZinhWBYLPd5J9AIIntc5YzW+KqEznggoyPDl36edWTu2TSJGpKgr+QLRT5I7uA99jFusSqKKLMYWoCGNxyorIzx9O9xRpm+M7RcUG5KooB2blSjoQgo4kb5wyMq1cNckmiys/C5MzEhllr9NuWgMhTh1wWtTV6YIqzpIaFgo9HAKKNCus17Skz6VJ1SBaLefcdnnhO//K+39Uohm4WFRc85zYCanPOBrM6hI6pnMAzk0Z/CA0eLFxxmE5vs0MhYJHO/0cnBARjcB0PM6W7mdf7NuJGNbRUGpM5cwiBHrqyZZ/HzQAcbn2Xw+HYf4Ral2mcIxuxgZ3fd6De4Hh9Uw85Jeoz/fmXTP5ljgNp1lQ7dybM0e9w8RntY+iX+FNmUHKg6ctS6gIay8MpHc0b7rEqSxK7m5MR1Bru1VQQwAAA",
+          "time": "2026-10-16 20:16"
         }
       ]
     }
@@ -694,6 +725,100 @@
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "read-final-message",
+      "label": "读到最后一条消息",
+      "type": "event",
+      "event": "read",
+      "target": "msg-owner-final",
+      "next": [
+        "wait-before-call"
+      ]
+    },
+    {
+      "id": "wait-before-call",
+      "label": "等待两秒",
+      "type": "delay",
+      "delayMs": 2000,
+      "next": [
+        "show-brother-call"
+      ]
+    },
+    {
+      "id": "show-brother-call",
+      "label": "弟弟发起微信语音",
+      "type": "action",
+      "actions": [
+        {
+          "type": "call",
+          "key": "brother",
+          "value": "弟弟"
+        }
+      ],
+      "next": [
+        "ring-five-seconds"
+      ]
+    },
+    {
+      "id": "ring-five-seconds",
+      "label": "响铃五秒",
+      "type": "delay",
+      "delayMs": 5000,
+      "next": [
+        "auto-decline-call"
+      ]
+    },
+    {
+      "id": "auto-decline-call",
+      "label": "自动拒绝来电",
+      "type": "action",
+      "actions": [
+        {
+          "type": "call",
+          "key": "decline",
+          "value": "弟弟"
+        }
+      ],
+      "next": []
+    },
+    {
+      "id": "test-only-ending",
+      "label": "验证完成",
+      "type": "ending",
+      "event": "manual-test-only",
+      "target": "",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "test",
+          "value": "验证完成"
+        }
+      ],
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "弟弟微信来电自动拒绝",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-owner-final"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "advanceMs": 5000
+        },
+        {
+          "event": "manual-test-only",
+          "target": ""
+        }
+      ],
+      "ending": "验证完成",
+      "expectUnlocked": []
+    }
+  ]
 }
