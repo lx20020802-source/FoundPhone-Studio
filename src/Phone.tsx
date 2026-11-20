@@ -190,6 +190,7 @@ function PhoneRuntime({
   }, [creator, ready]);
   const s = external ?? own;
   const runtimeRef = useRef(s);
+  const callAudioContext = useRef<AudioContext | null>(null);
   runtimeRef.current = s;
   const update = (next: Runtime) => {
     runtimeRef.current = next;
@@ -244,8 +245,54 @@ function PhoneRuntime({
     return () => clearInterval(interval);
   }, [creator, ready, work.id, work.updatedAt]);
   const event = (event: string, target: string) => {
-    if (!creator) update(dispatch(work, runtimeRef.current, event, target));
+    if (!creator) {
+      // Create/resume the audio context during the player's tap so the later
+      // scheduled incoming-call ringtone is not blocked by autoplay policy.
+      if (event === "read" && !callAudioContext.current) {
+        try {
+          const AudioContextClass = window.AudioContext;
+          if (AudioContextClass) {
+            callAudioContext.current = new AudioContextClass();
+            void callAudioContext.current.resume();
+          }
+        } catch {
+          callAudioContext.current = null;
+        }
+      }
+      update(dispatch(work, runtimeRef.current, event, target));
+    }
   };
+  useEffect(() => {
+    if (s.incomingCall?.status !== "ringing") return;
+    const context = callAudioContext.current;
+    if (!context) return;
+    void context.resume();
+    const oscillator = context.createOscillator();
+    const gain = context.createGain();
+    const start = context.currentTime;
+    oscillator.type = "sine";
+    oscillator.frequency.setValueAtTime(440, start);
+    oscillator.connect(gain);
+    gain.connect(context.destination);
+    gain.gain.setValueAtTime(0, start);
+    for (let second = 0; second < 5; second++) {
+      gain.gain.setValueAtTime(0.055, start + second + 0.05);
+      gain.gain.setValueAtTime(0, start + second + 0.28);
+      gain.gain.setValueAtTime(0.055, start + second + 0.42);
+      gain.gain.setValueAtTime(0, start + second + 0.65);
+    }
+    oscillator.start(start);
+    oscillator.stop(start + 5.05);
+    return () => {
+      try {
+        oscillator.stop();
+      } catch {
+        // It may already have stopped at the end of the ringtone.
+      }
+      oscillator.disconnect();
+      gain.disconnect();
+    };
+  }, [s.incomingCall?.status, s.incomingCall?.target]);
   const captureApp = () => {
     if (!app) return;
     const current = shell.current?.querySelector<HTMLElement>(".app-screen");
